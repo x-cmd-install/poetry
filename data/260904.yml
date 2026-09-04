@@ -7,7 +7,7 @@ about:
   head: 2fbd576
   archived: false
   latestVersion: 2.4.2
-  collectedAt: 2026-09-04T19:25:39Z
+  collectedAt: 2026-09-04T21:06:05Z
 timeline:
   created: 2018-02-28
   lastCommit: 2026-09-04
@@ -81,6 +81,54 @@ total:
   openIssue: 489
   commit: 3846
 ---
+path: /home/runner/.x-repo/github.com/python-poetry/poetry
+collectedAt: 2026-09-04T21:06:07Z
+loc:
+  Python:
+    code: 62646
+    comments: 1816
+    blanks: 14739
+    files: 445
+  Json:
+    code: 9785
+    comments: 0
+    blanks: 0
+    files: 106
+  Html:
+    code: 4055
+    comments: 31
+    blanks: 2468
+    files: 26
+  Toml:
+    code: 1712
+    comments: 66
+    blanks: 365
+    files: 106
+  C:
+    code: 49
+    comments: 0
+    blanks: 9
+    files: 1
+  ReStructuredText:
+    code: 34
+    comments: 0
+    blanks: 0
+    files: 17
+  Markdown:
+    code: 0
+    comments: 6448
+    blanks: 2908
+    files: 30
+  Text:
+    code: 0
+    comments: 16
+    blanks: 1
+    files: 9
+total:
+  code: 79425
+  comments: 8473
+  blanks: 20598
+  files: 740
 ---
 date: "2026-08-24"
 repo:
