@@ -2,22 +2,22 @@ about:
   description: "Python packaging and dependency management made easy"
   license: MIT
   homepage: https://python-poetry.org
-  head: 628f7fc
+  head: f323c54
   archived: false
   latestVersion: "2.4.3"
-  collectedAt: 2026-09-07T04:41:52Z
+  collectedAt: 2026-09-07T19:44:49Z
 timeline:
   created: 2018-02-28
-  lastCommit: 2026-09-06
+  lastCommit: 2026-09-07
   lastRelease: 2026-09-05
 popularity:
-  star: 34296
+  star: 34295
   watcher: 188
-  fork: 2486
+  fork: 2487
   release: 153
   contributor: 650
-  pullRequest: 3523
-  issue: 6360
+  pullRequest: 3525
+  issue: 6361
 language:
   Python: 2393488
   HTML: 261774
@@ -26,66 +26,66 @@ recent:
   last30d:
     since: 2026-08-08
     release: 2
-    mergedPR: 16
-    openPR: 14
-    closedIssue: 2
+    mergedPR: 17
+    openPR: 15
+    closedIssue: 3
     openIssue: 4
-    commit: 18
+    commit: 19
   last60d:
     since: 2026-07-09
     release: 2
-    mergedPR: 24
-    openPR: 24
-    closedIssue: 4
+    mergedPR: 25
+    openPR: 25
+    closedIssue: 5
     openIssue: 7
-    commit: 29
+    commit: 30
   last90d:
     since: 2026-06-09
     release: 2
-    mergedPR: 31
-    openPR: 33
-    closedIssue: 4
+    mergedPR: 32
+    openPR: 34
+    closedIssue: 5
     openIssue: 13
-    commit: 37
+    commit: 38
   last180d:
     since: 2026-03-11
     release: 6
-    mergedPR: 124
-    openPR: 47
-    closedIssue: 22
+    mergedPR: 125
+    openPR: 48
+    closedIssue: 23
     openIssue: 19
-    commit: 129
+    commit: 130
   last360d:
     since: 2025-09-12
     release: 11
-    mergedPR: 214
-    openPR: 54
-    closedIssue: 88
+    mergedPR: 215
+    openPR: 55
+    closedIssue: 89
     openIssue: 30
-    commit: 217
+    commit: 218
   last720d:
     since: 2024-09-17
     release: 20
-    mergedPR: 458
-    openPR: 73
-    closedIssue: 426
+    mergedPR: 459
+    openPR: 74
+    closedIssue: 427
     openIssue: 99
-    commit: 537
+    commit: 538
 total:
   release: 153
-  mergedPR: 2560
-  openPR: 77
-  closedIssue: 5872
+  mergedPR: 2561
+  openPR: 78
+  closedIssue: 5873
   openIssue: 488
-  commit: 3853
+  commit: 3854
 ---
 path: /home/runner/.x-repo/github.com/python-poetry/poetry
-collectedAt: 2026-09-07T04:41:55Z
+collectedAt: 2026-09-07T19:44:53Z
 loc:
   Python:
-    code: 63694
-    comments: 1981
-    blanks: 14988
+    code: 63784
+    comments: 1979
+    blanks: 15005
     files: 447
   Json:
     code: 9785
@@ -123,9 +123,9 @@ loc:
     blanks: 1
     files: 9
 total:
-  code: 80472
-  comments: 8651
-  blanks: 20857
+  code: 80562
+  comments: 8649
+  blanks: 20874
   files: 742
 ---
 date: "2026-08-24"
@@ -323,7 +323,7 @@ checks:
       - 'Info: PRs are required in order to make changes on branch ''1.8'''
 ---
 eget:
-  collectedAt: 2026-09-07T04:41:56+00:00
+  collectedAt: 2026-09-07T19:44:59+00:00
   platform:
     darwin/arm64:
       name:  null
