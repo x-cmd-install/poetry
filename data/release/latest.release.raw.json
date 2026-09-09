@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 293736,
       "digest": "sha256:79ce90140d0dcded93bab2df97fdd26b433f6949d834b4ac7bb1951aaca65c2f",
-      "download_count": 43,
+      "download_count": 44,
       "created_at": "2026-09-05T08:58:26Z",
       "updated_at": "2026-09-05T08:58:26Z",
       "browser_download_url": "https://github.com/python-poetry/poetry/releases/download/2.4.3/poetry-2.4.3-py3-none-any.whl"
