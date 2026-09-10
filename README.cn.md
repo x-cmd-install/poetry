@@ -4,7 +4,7 @@
 
 Python packaging and dependency management made easy
 
-![poetry](https://repo.x-cmd.io/poetry.svg)
+![poetry](https://repo.x-cmd.io/poetry.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,17 @@ x install poetry
 - **最新版本**: `2.4.3` (2026-09-05)
 - **最近提交**: 2026-09-09
 - **Release 含资产**: 2 个
-- **发布时间**: 2026-09-05T08:58:02Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [poetry-2.4.3-py3-none-any.whl](https://github.com/python-poetry/poetry/releases/download/2.4.3/poetry-2.4.3-py3-none-any.whl) | 286.9 KiB | `other` |
+| [poetry-2.4.3.tar.gz](https://github.com/python-poetry/poetry/releases/download/2.4.3/poetry-2.4.3.tar.gz) | 3.1 MiB | `native/unknown` |
 
 ## 流行度
 
-- **Star**: 34,294 · **Fork**: 2,489 · **开放 issue**: 6,361 · **贡献者**: 651
+- **Star**: 34,295 · **Fork**: 2,488 · **开放 issue**: 6,361 · **贡献者**: 651
 
 ## 累计统计
 
@@ -72,4 +78,4 @@ poetry 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:45:47Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:28:37Z._

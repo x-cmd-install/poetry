@@ -23,11 +23,17 @@ x install poetry
 - **Latest**: `2.4.3` (2026-09-05)
 - **Last commit**: 2026-09-09
 - **Assets in release**: 2
-- **Published**: 2026-09-05T08:58:02Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [poetry-2.4.3-py3-none-any.whl](https://github.com/python-poetry/poetry/releases/download/2.4.3/poetry-2.4.3-py3-none-any.whl) | 286.9 KiB | `other` |
+| [poetry-2.4.3.tar.gz](https://github.com/python-poetry/poetry/releases/download/2.4.3/poetry-2.4.3.tar.gz) | 3.1 MiB | `native/unknown` |
 
 ## Popularity
 
-- **Stars**: 34,294 · **Forks**: 2,489 · **Open issues**: 6,361 · **Contributors**: 651
+- **Stars**: 34,295 · **Forks**: 2,488 · **Open issues**: 6,361 · **Contributors**: 651
 
 ## Totals (cumulative)
 
@@ -68,8 +74,8 @@ Lowest-scoring checks:
 Install metadata for poetry lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `poetry` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/poetry.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/poetry.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:45:46Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:28:36Z._
