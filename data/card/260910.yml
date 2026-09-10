@@ -7,7 +7,7 @@ about:
   latestVersion: "2.4.3"
   latestRelease: "2.4.3"
   latestPrerelease: "1.2.0rc2"
-  collectedAt: 2026-09-10T04:45:35Z
+  collectedAt: 2026-09-10T16:28:30Z
 timeline:
   created: 2018-02-28
   lastCommit: 2026-09-09
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 2026-09-05
   lastPrerelease: 2022-08-26
 popularity:
-  star: 34294
+  star: 34295
   watcher: 188
-  fork: 2489
+  fork: 2488
   release: 153
   contributor: 651
   pullRequest: 3529
@@ -84,7 +84,7 @@ total:
   commit: 3856
 ---
 path: /home/runner/.x-repo/github.com/python-poetry/poetry
-collectedAt: 2026-09-10T04:45:42Z
+collectedAt: 2026-09-10T16:28:33Z
 loc:
   Python:
     code: 63783
