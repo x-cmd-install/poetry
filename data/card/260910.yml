@@ -7,7 +7,7 @@ about:
   latestVersion: "2.4.3"
   latestRelease: "2.4.3"
   latestPrerelease: "1.2.0rc2"
-  collectedAt: 2026-09-10T21:05:38Z
+  collectedAt: 2026-09-10T22:42:32Z
 timeline:
   created: 2018-02-28
   lastCommit: 2026-09-09
@@ -84,7 +84,7 @@ total:
   commit: 3856
 ---
 path: /home/runner/.x-repo/github.com/python-poetry/poetry
-collectedAt: 2026-09-10T21:05:41Z
+collectedAt: 2026-09-10T22:42:39Z
 loc:
   Python:
     code: 63783
