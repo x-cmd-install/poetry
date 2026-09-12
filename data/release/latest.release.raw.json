@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3286180,
       "digest": "sha256:f5687e723512332ffe2469f81624d8c9ecbe69c16eb84889decbd85ecfc282e7",
-      "download_count": 23,
+      "download_count": 24,
       "created_at": "2026-09-05T08:58:26Z",
       "updated_at": "2026-09-05T08:58:26Z",
       "browser_download_url": "https://github.com/python-poetry/poetry/releases/download/2.4.3/poetry-2.4.3.tar.gz"
