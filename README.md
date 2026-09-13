@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 34,297 · **Forks**: 2,490 · **Open issues**: 6,362 · **Contributors**: 653
+- **Stars**: 34,299 · **Forks**: 2,493 · **Open issues**: 6,362 · **Contributors**: 653
 
 ## Totals (cumulative)
 
-- **Releases**: 153 · **Merged PRs**: 2566 · **Open PRs**: 79 · **Closed issues**: 5875 · **Open issues**: 487 · **Commits**: 3859
+- **Releases**: 153 · **Merged PRs**: 2566 · **Open PRs**: 81 · **Closed issues**: 5875 · **Open issues**: 487 · **Commits**: 3859
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 2 | 21 | 11 | 3 | 2 | 24 |
-| last60d | 2026-07-14 | 2 | 29 | 26 | 3 | 7 | 35 |
-| 90d | 2026-06-14 | 2 | 32 | 34 | 5 | 13 | 43 |
-| last180d | 2026-03-16 | 6 | 128 | 49 | 23 | 19 | 135 |
-| 360d | 2025-09-17 | 10 | 214 | 56 | 85 | 29 | 223 |
-| last720d | 2024-09-22 | 20 | 460 | 75 | 424 | 98 | 543 |
+| 30d | 2026-08-14 | 2 | 21 | 13 | 3 | 2 | 24 |
+| last60d | 2026-07-15 | 2 | 29 | 27 | 3 | 7 | 35 |
+| 90d | 2026-06-15 | 2 | 32 | 36 | 5 | 13 | 43 |
+| last180d | 2026-03-17 | 6 | 128 | 51 | 23 | 18 | 135 |
+| 360d | 2025-09-18 | 10 | 214 | 58 | 85 | 29 | 223 |
+| last720d | 2024-09-23 | 20 | 458 | 77 | 423 | 98 | 537 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **143** distros on [repology.org](https://repology.org/project/poetry). **11** are ✅ on the latest upstream release, **92** are ⚠️ on an older version.
+Reported by **143** distros on [repology.org](https://repology.org/project/poetry). **12** are ✅ on the latest upstream release, **91** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,4 +99,4 @@ Install metadata for poetry lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T04:45:50Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T04:55:38Z._
