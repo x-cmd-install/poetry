@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 34,299 · **Forks**: 2,493 · **Open issues**: 6,362 · **Contributors**: 653
+- **Stars**: 34,301 · **Forks**: 2,494 · **Open issues**: 6,362 · **Contributors**: 653
 
 ## Totals (cumulative)
 
-- **Releases**: 153 · **Merged PRs**: 2566 · **Open PRs**: 81 · **Closed issues**: 5875 · **Open issues**: 487 · **Commits**: 3859
+- **Releases**: 153 · **Merged PRs**: 2566 · **Open PRs**: 82 · **Closed issues**: 5875 · **Open issues**: 487 · **Commits**: 3859
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 2 | 21 | 13 | 3 | 2 | 24 |
-| last60d | 2026-07-15 | 2 | 29 | 27 | 3 | 7 | 35 |
-| 90d | 2026-06-15 | 2 | 32 | 36 | 5 | 13 | 43 |
-| last180d | 2026-03-17 | 6 | 128 | 51 | 23 | 18 | 135 |
-| 360d | 2025-09-18 | 10 | 214 | 58 | 85 | 29 | 223 |
-| last720d | 2024-09-23 | 20 | 458 | 77 | 423 | 98 | 537 |
+| 30d | 2026-08-15 | 2 | 21 | 14 | 3 | 2 | 23 |
+| last60d | 2026-07-16 | 2 | 28 | 28 | 3 | 7 | 35 |
+| 90d | 2026-06-16 | 2 | 32 | 36 | 5 | 13 | 35 |
+| last180d | 2026-03-18 | 6 | 128 | 52 | 23 | 18 | 134 |
+| 360d | 2025-09-19 | 10 | 214 | 59 | 82 | 29 | 219 |
+| last720d | 2024-09-24 | 20 | 458 | 78 | 421 | 98 | 535 |
 
 ## Release assets
 
@@ -71,24 +71,6 @@ Lowest-scoring checks:
 |-------|-----:|--------|
 | [poetry-2.4.3-py3-none-any.whl](https://github.com/python-poetry/poetry/releases/download/2.4.3/poetry-2.4.3-py3-none-any.whl) | 286.9 KiB | `other` |
 | [poetry-2.4.3.tar.gz](https://github.com/python-poetry/poetry/releases/download/2.4.3/poetry-2.4.3.tar.gz) | 3.1 MiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **143** distros on [repology.org](https://repology.org/project/poetry). **12** are ✅ on the latest upstream release, **91** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.3.4` | ⚠️ outdated |
-| Debian 14 | `2.3.4` | ⚠️ outdated |
-| Debian 13 | `2.1.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.3.2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.8.2` | ⚠️ outdated |
-| Arch | `2.4.1` | ⚠️ outdated |
-| Homebrew | `2.4.3` | ✅ latest |
-| Fedora rawhide | `2.4.2` | ⚠️ outdated |
-| Nix unstable | `2.4.3` | ✅ latest |
-| Alpine edge | `2.3.3` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.4.1` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -99,4 +81,4 @@ Install metadata for poetry lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:55:38Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:06:09Z._
