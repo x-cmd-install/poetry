@@ -4,7 +4,7 @@
 
 Python packaging and dependency management made easy
 
-[![x-cmd/install — poetry Code Quality Monitoring Repo Card](https://repo.x-cmd.io/poetry.svg?lang=zh)](https://x-cmd.com/install/poetry)
+[![x-cmd/install — poetry Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/poetry.svg?lang=zh)](https://x-cmd.com/install/poetry)
 
 ## 安装
 
@@ -48,22 +48,22 @@ x install poetry
 
 ## 流行度
 
-- **Star**: 34,309 · **Fork**: 2,500 · **开放 issue**: 6,365 · **贡献者**: 660
+- **Star**: 34,307 · **Fork**: 2,504 · **开放 issue**: 6,366 · **贡献者**: 660
 
 ## 累计统计
 
-- **发布数**: 155 · **已合并 PR**: 2585 · **开放 PR**: 81 · **已关闭 issue**: 5886 · **开放 issue**: 479 · **提交数**: 3878
+- **发布数**: 155 · **已合并 PR**: 2585 · **开放 PR**: 85 · **已关闭 issue**: 5886 · **开放 issue**: 480 · **提交数**: 3878
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 4 | 32 | 18 | 3 | 3 | 41 |
-| last60d | 2026-07-24 | 4 | 39 | 27 | 6 | 5 | 50 |
-| 90d | 2026-06-24 | 4 | 46 | 34 | 10 | 11 | 54 |
-| last180d | 2026-03-26 | 8 | 142 | 50 | 28 | 16 | 139 |
-| 360d | 2025-09-27 | 11 | 229 | 58 | 88 | 23 | 238 |
-| last720d | 2024-10-02 | 22 | 473 | 77 | 417 | 93 | 549 |
+| 30d | 2026-08-24 | 4 | 32 | 22 | 3 | 4 | 41 |
+| last60d | 2026-07-25 | 4 | 39 | 31 | 6 | 6 | 50 |
+| 90d | 2026-06-25 | 4 | 46 | 38 | 10 | 12 | 54 |
+| last180d | 2026-03-27 | 8 | 142 | 54 | 28 | 17 | 139 |
+| 360d | 2025-09-28 | 11 | 229 | 62 | 87 | 24 | 238 |
+| last720d | 2024-10-03 | 22 | 472 | 81 | 417 | 94 | 547 |
 
 ## Release 资产
 
@@ -81,4 +81,4 @@ poetry 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:00:11Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T04:59:07Z._
