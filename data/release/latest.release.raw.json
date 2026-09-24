@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 307610,
       "digest": "sha256:3f7910abc667ce0c33a67e306baf017acdec1c8eeec4aa64d176e530d8338a61",
-      "download_count": 25,
+      "download_count": 30,
       "created_at": "2026-09-20T07:17:20Z",
       "updated_at": "2026-09-20T07:17:20Z",
       "browser_download_url": "https://github.com/python-poetry/poetry/releases/download/2.5.1/poetry-2.5.1-py3-none-any.whl"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3322124,
       "digest": "sha256:19fbd566efced512be58989a756aa1333cdc9b6aabb4fc84fd1ec9d29ee74874",
-      "download_count": 21,
+      "download_count": 26,
       "created_at": "2026-09-20T07:17:20Z",
       "updated_at": "2026-09-20T07:17:20Z",
       "browser_download_url": "https://github.com/python-poetry/poetry/releases/download/2.5.1/poetry-2.5.1.tar.gz"
@@ -114,8 +114,8 @@
   "body": "### Fixed\r\n\r\n- Fix an issue where uninstalling a package with `installer.builtin-uninstall` set failed with a `TypeError` ([#11077](https://github.com/python-poetry/poetry/pull/11077)).\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/python-poetry/poetry/releases/392346149/reactions",
-    "total_count": 2,
-    "+1": 1,
+    "total_count": 3,
+    "+1": 2,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
