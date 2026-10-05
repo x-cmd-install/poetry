@@ -14,11 +14,11 @@ x install poetry
 
 ## Code insight
 
-Total: **80,276** lines of code across **694** files in the top 5 languages.
+Total: **80,419** lines of code across **694** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 64,588 | 2,056 | 15,144 | 451 |
+| Python | 64,731 | 2,069 | 15,173 | 451 |
 | Json | 9,785 | 0 | 0 | 106 |
 | Html | 4,055 | 31 | 2,468 | 26 |
 | Toml | 1,764 | 66 | 377 | 110 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `2.5.1` (2026-09-20)
-- **Last commit**: 2026-09-27
+- **Last commit**: 2026-10-04
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 34,305 · **Forks**: 2,525 · **Open issues**: 6,369 · **Contributors**: 664
+- **Stars**: 34,305 · **Forks**: 2,527 · **Open issues**: 6,369 · **Contributors**: 665
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 2592 · **Open PRs**: 110 · **Closed issues**: 5890 · **Open issues**: 479 · **Commits**: 3884
+- **Releases**: 155 · **Merged PRs**: 2593 · **Open PRs**: 109 · **Closed issues**: 5891 · **Open issues**: 478 · **Commits**: 3885
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 3 | 26 | 46 | 4 | 5 | 41 |
-| last60d | 2026-08-05 | 4 | 41 | 53 | 9 | 6 | 49 |
-| 90d | 2026-07-06 | 4 | 52 | 61 | 13 | 8 | 60 |
-| last180d | 2026-04-07 | 7 | 123 | 78 | 28 | 15 | 128 |
-| 360d | 2025-10-09 | 11 | 236 | 86 | 88 | 24 | 245 |
-| last720d | 2024-10-14 | 22 | 464 | 106 | 409 | 93 | 536 |
+| 30d | 2026-09-05 | 3 | 23 | 45 | 4 | 5 | 29 |
+| last60d | 2026-08-06 | 4 | 42 | 52 | 9 | 6 | 50 |
+| 90d | 2026-07-07 | 4 | 53 | 60 | 13 | 8 | 61 |
+| last180d | 2026-04-08 | 7 | 124 | 77 | 26 | 15 | 126 |
+| 360d | 2025-10-10 | 11 | 237 | 85 | 88 | 24 | 246 |
+| last720d | 2024-10-15 | 21 | 465 | 105 | 408 | 93 | 533 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for poetry lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261004.yml` · 2026-10-04T05:55:08Z._
+_Snapshot: `data/card/261005.yml` · 2026-10-05T05:40:02Z._
