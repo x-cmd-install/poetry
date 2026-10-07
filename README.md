@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `2.5.1` (2026-09-20)
-- **Last commit**: 2026-10-04
+- **Last commit**: 2026-10-06
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 34,304 · **Forks**: 2,527 · **Open issues**: 6,369 · **Contributors**: 665
+- **Stars**: 34,305 · **Forks**: 2,527 · **Open issues**: 6,369 · **Contributors**: 666
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 2593 · **Open PRs**: 111 · **Closed issues**: 5891 · **Open issues**: 478 · **Commits**: 3885
+- **Releases**: 155 · **Merged PRs**: 2594 · **Open PRs**: 110 · **Closed issues**: 5891 · **Open issues**: 478 · **Commits**: 3886
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 2 | 19 | 46 | 4 | 5 | 29 |
-| last60d | 2026-08-07 | 4 | 42 | 54 | 9 | 6 | 50 |
-| 90d | 2026-07-08 | 4 | 52 | 62 | 12 | 8 | 61 |
-| last180d | 2026-04-09 | 7 | 124 | 79 | 26 | 14 | 126 |
-| 360d | 2025-10-11 | 11 | 237 | 87 | 88 | 24 | 246 |
-| last720d | 2024-10-16 | 21 | 465 | 107 | 408 | 93 | 532 |
+| 30d | 2026-09-07 | 2 | 18 | 46 | 4 | 4 | 30 |
+| last60d | 2026-08-08 | 4 | 43 | 53 | 9 | 6 | 51 |
+| 90d | 2026-07-09 | 4 | 52 | 61 | 12 | 8 | 62 |
+| last180d | 2026-04-10 | 7 | 125 | 78 | 26 | 14 | 127 |
+| 360d | 2025-10-12 | 11 | 238 | 86 | 87 | 24 | 247 |
+| last720d | 2024-10-17 | 21 | 465 | 106 | 403 | 92 | 532 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for poetry lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T06:29:24Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T05:56:04Z._
