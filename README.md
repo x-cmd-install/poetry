@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 34,309 · **Forks**: 2,532 · **Open issues**: 6,371 · **Contributors**: 666
+- **Stars**: 34,306 · **Forks**: 2,533 · **Open issues**: 6,371 · **Contributors**: 667
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 2594 · **Open PRs**: 114 · **Closed issues**: 5891 · **Open issues**: 480 · **Commits**: 3887
+- **Releases**: 155 · **Merged PRs**: 2595 · **Open PRs**: 116 · **Closed issues**: 5891 · **Open issues**: 480 · **Commits**: 3887
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 2 | 16 | 42 | 3 | 6 | 28 |
-| last60d | 2026-08-16 | 4 | 41 | 53 | 8 | 7 | 51 |
-| 90d | 2026-07-17 | 4 | 50 | 62 | 10 | 10 | 63 |
-| last180d | 2026-04-18 | 6 | 116 | 81 | 26 | 16 | 123 |
-| 360d | 2025-10-20 | 11 | 235 | 90 | 80 | 26 | 247 |
-| last720d | 2024-10-25 | 21 | 461 | 110 | 396 | 92 | 530 |
+| 30d | 2026-09-16 | 2 | 17 | 44 | 3 | 6 | 27 |
+| last60d | 2026-08-17 | 4 | 42 | 55 | 8 | 7 | 50 |
+| 90d | 2026-07-18 | 4 | 50 | 64 | 10 | 10 | 62 |
+| last180d | 2026-04-19 | 6 | 115 | 83 | 26 | 16 | 122 |
+| 360d | 2025-10-21 | 11 | 235 | 92 | 79 | 26 | 246 |
+| last720d | 2024-10-26 | 21 | 462 | 112 | 395 | 92 | 528 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for poetry lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261015.yml` · 2026-10-15T04:52:09Z._
+_Snapshot: `data/card/261016.yml` · 2026-10-16T04:32:56Z._
