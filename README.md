@@ -14,14 +14,14 @@ x install poetry
 
 ## Code insight
 
-Total: **80,731** lines of code across **694** files in the top 5 languages.
+Total: **80,764** lines of code across **695** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 65,033 | 2,077 | 15,197 | 451 |
+| Python | 65,067 | 2,078 | 15,232 | 452 |
 | Json | 9,789 | 0 | 0 | 106 |
 | Html | 4,055 | 31 | 2,468 | 26 |
-| Toml | 1,770 | 66 | 375 | 110 |
+| Toml | 1,769 | 66 | 375 | 110 |
 | C | 49 | 0 | 9 | 1 |
 
 ## OpenSSF Scorecard
@@ -30,9 +30,9 @@ Overall score: **3.1 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Binary-Artifacts** (0/10) — binaries present in source code
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `2.5.1` (2026-09-20)
-- **Last commit**: 2026-11-01
+- **Last commit**: 2026-11-09
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 34,432 · **Forks**: 2,583 · **Open issues**: 6,380 · **Contributors**: 671
+- **Stars**: 34,433 · **Forks**: 2,587 · **Open issues**: 6,382 · **Contributors**: 678
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 2607 · **Open PRs**: 156 · **Closed issues**: 5894 · **Open issues**: 486 · **Commits**: 3900
+- **Releases**: 155 · **Merged PRs**: 2621 · **Open PRs**: 130 · **Closed issues**: 5899 · **Open issues**: 483 · **Commits**: 3914
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 10 | 49 | 2 | 9 | 13 |
-| last60d | 2026-09-09 | 2 | 30 | 93 | 6 | 13 | 44 |
-| 90d | 2026-08-10 | 4 | 54 | 99 | 11 | 15 | 64 |
-| last180d | 2026-05-12 | 4 | 102 | 124 | 22 | 23 | 108 |
-| 360d | 2025-11-13 | 11 | 238 | 130 | 72 | 33 | 251 |
-| last720d | 2024-11-18 | 21 | 454 | 150 | 379 | 97 | 520 |
+| 30d | 2026-10-11 | 0 | 19 | 42 | 4 | 8 | 26 |
+| last60d | 2026-09-11 | 2 | 41 | 79 | 8 | 13 | 54 |
+| 90d | 2026-08-12 | 4 | 66 | 85 | 13 | 14 | 78 |
+| last180d | 2026-05-14 | 4 | 114 | 108 | 24 | 23 | 117 |
+| 360d | 2025-11-15 | 11 | 251 | 113 | 73 | 33 | 260 |
+| last720d | 2024-11-20 | 21 | 464 | 123 | 380 | 96 | 522 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **145** distros on [repology.org](https://repology.org/project/poetry). **26** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
+Reported by **146** distros on [repology.org](https://repology.org/project/poetry). **26** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,4 +99,4 @@ Install metadata for poetry lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:01:30Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:24:36Z._

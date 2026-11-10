@@ -14,14 +14,14 @@ x install poetry
 
 ## 代码洞察
 
-合计: **80,731** 行代码（覆盖前 5 种语言、共 **694** 个文件）。
+合计: **80,764** 行代码（覆盖前 5 种语言、共 **695** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Python | 65,033 | 2,077 | 15,197 | 451 |
+| Python | 65,067 | 2,078 | 15,232 | 452 |
 | Json | 9,789 | 0 | 0 | 106 |
 | Html | 4,055 | 31 | 2,468 | 26 |
-| Toml | 1,770 | 66 | 375 | 110 |
+| Toml | 1,769 | 66 | 375 | 110 |
 | C | 49 | 0 | 9 | 1 |
 
 ## OpenSSF Scorecard 评分
@@ -30,9 +30,9 @@ x install poetry
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Binary-Artifacts** (0/10) — binaries present in source code
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install poetry
 ## 发布
 
 - **最新版本**: `2.5.1` (2026-09-20)
-- **最近提交**: 2026-11-01
+- **最近提交**: 2026-11-09
 - **Release 含资产**: 2 个
 
 ## 流行度
 
-- **Star**: 34,432 · **Fork**: 2,583 · **开放 issue**: 6,380 · **贡献者**: 671
+- **Star**: 34,433 · **Fork**: 2,587 · **开放 issue**: 6,382 · **贡献者**: 678
 
 ## 累计统计
 
-- **发布数**: 155 · **已合并 PR**: 2607 · **开放 PR**: 156 · **已关闭 issue**: 5894 · **开放 issue**: 486 · **提交数**: 3900
+- **发布数**: 155 · **已合并 PR**: 2621 · **开放 PR**: 130 · **已关闭 issue**: 5899 · **开放 issue**: 483 · **提交数**: 3914
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 10 | 49 | 2 | 9 | 13 |
-| last60d | 2026-09-09 | 2 | 30 | 93 | 6 | 13 | 44 |
-| 90d | 2026-08-10 | 4 | 54 | 99 | 11 | 15 | 64 |
-| last180d | 2026-05-12 | 4 | 102 | 124 | 22 | 23 | 108 |
-| 360d | 2025-11-13 | 11 | 238 | 130 | 72 | 33 | 251 |
-| last720d | 2024-11-18 | 21 | 454 | 150 | 379 | 97 | 520 |
+| 30d | 2026-10-11 | 0 | 19 | 42 | 4 | 8 | 26 |
+| last60d | 2026-09-11 | 2 | 41 | 79 | 8 | 13 | 54 |
+| 90d | 2026-08-12 | 4 | 66 | 85 | 13 | 14 | 78 |
+| last180d | 2026-05-14 | 4 | 114 | 108 | 24 | 23 | 117 |
+| 360d | 2025-11-15 | 11 | 251 | 113 | 73 | 33 | 260 |
+| last720d | 2024-11-20 | 21 | 464 | 123 | 380 | 96 | 522 |
 
 ## Release 资产
 
@@ -74,7 +74,7 @@ x install poetry
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/poetry) 上共有 **145** 个发行版报告此项目。**26** 个 ✅ 已是最新上游版本，**74** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/poetry) 上共有 **146** 个发行版报告此项目。**26** 个 ✅ 已是最新上游版本，**75** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -99,4 +99,4 @@ poetry 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261108.yml` · 2026-11-08T06:01:31Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T07:24:36Z._
