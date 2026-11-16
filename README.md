@@ -14,11 +14,11 @@ x install poetry
 
 ## Code insight
 
-Total: **80,828** lines of code across **695** files in the top 5 languages.
+Total: **80,829** lines of code across **695** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 65,131 | 2,083 | 15,244 | 452 |
+| Python | 65,132 | 2,083 | 15,244 | 452 |
 | Json | 9,789 | 0 | 0 | 106 |
 | Html | 4,055 | 31 | 2,468 | 26 |
 | Toml | 1,769 | 66 | 375 | 110 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 34,323 · **Forks**: 2,590 · **Open issues**: 6,383 · **Contributors**: 681
+- **Stars**: 34,323 · **Forks**: 2,624 · **Open issues**: 6,384 · **Contributors**: 682
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 2623 · **Open PRs**: 130 · **Closed issues**: 5901 · **Open issues**: 482 · **Commits**: 3918
+- **Releases**: 155 · **Merged PRs**: 2624 · **Open PRs**: 131 · **Closed issues**: 5901 · **Open issues**: 483 · **Commits**: 3919
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 18 | 39 | 4 | 8 | 28 |
-| last60d | 2026-09-16 | 2 | 43 | 75 | 9 | 12 | 39 |
-| 90d | 2026-08-17 | 4 | 69 | 85 | 14 | 13 | 80 |
-| last180d | 2026-05-19 | 4 | 106 | 106 | 25 | 21 | 113 |
-| 360d | 2025-11-20 | 11 | 249 | 113 | 75 | 31 | 258 |
-| last720d | 2024-11-25 | 21 | 463 | 123 | 376 | 94 | 525 |
+| 30d | 2026-10-17 | 0 | 18 | 40 | 2 | 9 | 29 |
+| last60d | 2026-09-17 | 2 | 43 | 75 | 9 | 13 | 40 |
+| 90d | 2026-08-18 | 4 | 70 | 86 | 14 | 14 | 81 |
+| last180d | 2026-05-20 | 4 | 107 | 107 | 25 | 22 | 114 |
+| 360d | 2025-11-21 | 11 | 250 | 114 | 75 | 32 | 259 |
+| last720d | 2024-11-26 | 21 | 463 | 124 | 376 | 95 | 526 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for poetry lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T06:28:07Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T06:52:35Z._
