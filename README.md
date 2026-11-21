@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 34,332 · **Forks**: 2,690 · **Open issues**: 6,388 · **Contributors**: 683
+- **Stars**: 34,332 · **Forks**: 2,689 · **Open issues**: 6,389 · **Contributors**: 683
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 2633 · **Open PRs**: 132 · **Closed issues**: 5902 · **Open issues**: 486 · **Commits**: 3926
+- **Releases**: 155 · **Merged PRs**: 2633 · **Open PRs**: 134 · **Closed issues**: 5902 · **Open issues**: 487 · **Commits**: 3926
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 21 | 38 | 3 | 12 | 36 |
-| last60d | 2026-09-21 | 0 | 40 | 76 | 8 | 16 | 47 |
-| 90d | 2026-08-22 | 4 | 76 | 86 | 13 | 17 | 88 |
-| last180d | 2026-05-24 | 4 | 109 | 108 | 23 | 24 | 121 |
-| 360d | 2025-11-25 | 11 | 257 | 115 | 75 | 35 | 268 |
-| last720d | 2024-11-30 | 21 | 471 | 125 | 375 | 98 | 519 |
+| 30d | 2026-10-22 | 0 | 20 | 39 | 3 | 13 | 36 |
+| last60d | 2026-09-22 | 0 | 38 | 74 | 7 | 16 | 47 |
+| 90d | 2026-08-23 | 4 | 76 | 88 | 13 | 18 | 88 |
+| last180d | 2026-05-25 | 4 | 108 | 110 | 23 | 25 | 121 |
+| 360d | 2025-11-26 | 11 | 257 | 117 | 74 | 36 | 268 |
+| last720d | 2024-12-01 | 21 | 471 | 127 | 374 | 99 | 516 |
 
 ## Release assets
 
@@ -84,7 +84,7 @@ Reported by **145** distros on [repology.org](https://repology.org/project/poetr
 | Ubuntu 26.04 LTS | `2.3.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.8.2` | ⚠️ outdated |
 | Arch | `2.5.1` | ✅ latest |
-| Homebrew | `2.5.1` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `2.4.3` | ⚠️ outdated |
 | Nix unstable | `2.5.1` | ✅ latest |
 | Alpine edge | `2.5.1` | ✅ latest |
@@ -99,4 +99,4 @@ Install metadata for poetry lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:16:27Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:03:30Z._
