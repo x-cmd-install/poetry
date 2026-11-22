@@ -14,11 +14,11 @@ x install poetry
 
 ## Code insight
 
-Total: **80,841** lines of code across **695** files in the top 5 languages.
+Total: **80,879** lines of code across **695** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 65,142 | 2,081 | 15,247 | 452 |
+| Python | 65,180 | 2,083 | 15,252 | 452 |
 | Json | 9,789 | 0 | 0 | 106 |
 | Html | 4,055 | 31 | 2,468 | 26 |
 | Toml | 1,771 | 66 | 375 | 110 |
@@ -42,39 +42,39 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `2.5.1` (2026-09-20)
-- **Last commit**: 2026-11-19
+- **Latest**: `2.5.2` (2026-11-21)
+- **Last commit**: 2026-11-21
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 34,332 · **Forks**: 2,689 · **Open issues**: 6,389 · **Contributors**: 683
+- **Stars**: 34,327 · **Forks**: 2,701 · **Open issues**: 6,390 · **Contributors**: 683
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 2633 · **Open PRs**: 134 · **Closed issues**: 5902 · **Open issues**: 487 · **Commits**: 3926
+- **Releases**: 156 · **Merged PRs**: 2637 · **Open PRs**: 135 · **Closed issues**: 5902 · **Open issues**: 488 · **Commits**: 3928
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 20 | 39 | 3 | 13 | 36 |
-| last60d | 2026-09-22 | 0 | 38 | 74 | 7 | 16 | 47 |
-| 90d | 2026-08-23 | 4 | 76 | 88 | 13 | 18 | 88 |
-| last180d | 2026-05-25 | 4 | 108 | 110 | 23 | 25 | 121 |
-| 360d | 2025-11-26 | 11 | 257 | 117 | 74 | 36 | 268 |
-| last720d | 2024-12-01 | 21 | 471 | 127 | 374 | 99 | 516 |
+| 30d | 2026-10-23 | 1 | 24 | 39 | 3 | 14 | 38 |
+| last60d | 2026-09-23 | 1 | 42 | 74 | 7 | 16 | 49 |
+| 90d | 2026-08-24 | 5 | 80 | 89 | 13 | 19 | 90 |
+| last180d | 2026-05-26 | 5 | 111 | 111 | 23 | 26 | 123 |
+| 360d | 2025-11-27 | 12 | 260 | 118 | 74 | 36 | 270 |
+| last720d | 2024-12-02 | 22 | 474 | 128 | 373 | 100 | 517 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [poetry-2.5.1-py3-none-any.whl](https://github.com/python-poetry/poetry/releases/download/2.5.1/poetry-2.5.1-py3-none-any.whl) | 300.4 KiB | `other` |
-| [poetry-2.5.1.tar.gz](https://github.com/python-poetry/poetry/releases/download/2.5.1/poetry-2.5.1.tar.gz) | 3.2 MiB | `native/unknown` |
+| [poetry-2.5.2-py3-none-any.whl](https://github.com/python-poetry/poetry/releases/download/2.5.2/poetry-2.5.2-py3-none-any.whl) | 300.6 KiB | `other` |
+| [poetry-2.5.2.tar.gz](https://github.com/python-poetry/poetry/releases/download/2.5.2/poetry-2.5.2.tar.gz) | 3.2 MiB | `native/unknown` |
 
 ## Distribution status
 
-Reported by **145** distros on [repology.org](https://repology.org/project/poetry). **26** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
+Reported by **140** distros on [repology.org](https://repology.org/project/poetry). **7** are ✅ on the latest upstream release, **93** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -83,11 +83,11 @@ Reported by **145** distros on [repology.org](https://repology.org/project/poetr
 | Debian 13 | `2.1.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.3.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.8.2` | ⚠️ outdated |
-| Arch | `2.5.1` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Arch | `2.5.1` | ⚠️ outdated |
+| Homebrew | `2.5.1` | ⚠️ outdated |
 | Fedora rawhide | `2.4.3` | ⚠️ outdated |
-| Nix unstable | `2.5.1` | ✅ latest |
-| Alpine edge | `2.5.1` | ✅ latest |
+| Nix unstable | `2.5.1` | ⚠️ outdated |
+| Alpine edge | `2.5.1` | ⚠️ outdated |
 | openSUSE Tumbleweed | `2.4.1` | ⚠️ outdated |
 
 ## Improve this data
@@ -99,4 +99,4 @@ Install metadata for poetry lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T07:03:30Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T07:04:31Z._
