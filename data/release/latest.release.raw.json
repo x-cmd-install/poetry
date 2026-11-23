@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 307823,
       "digest": "sha256:fa8f10da214f180c11a55e0a468d4ca9d05d984c14de4d5c53e404fe4eec8215",
-      "download_count": 4,
+      "download_count": 6,
       "created_at": "2026-11-21T09:36:47Z",
       "updated_at": "2026-11-21T09:36:47Z",
       "browser_download_url": "https://github.com/python-poetry/poetry/releases/download/2.5.2/poetry-2.5.2-py3-none-any.whl"
