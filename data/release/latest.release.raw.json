@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 307823,
       "digest": "sha256:fa8f10da214f180c11a55e0a468d4ca9d05d984c14de4d5c53e404fe4eec8215",
-      "download_count": 9,
+      "download_count": 11,
       "created_at": "2026-11-21T09:36:47Z",
       "updated_at": "2026-11-21T09:36:47Z",
       "browser_download_url": "https://github.com/python-poetry/poetry/releases/download/2.5.2/poetry-2.5.2-py3-none-any.whl"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3324724,
       "digest": "sha256:131d6a565f809436918a5aafed34e7013038fc73b4f7b64640dc278f14adc4ea",
-      "download_count": 19,
+      "download_count": 22,
       "created_at": "2026-11-21T09:36:47Z",
       "updated_at": "2026-11-21T09:36:48Z",
       "browser_download_url": "https://github.com/python-poetry/poetry/releases/download/2.5.2/poetry-2.5.2.tar.gz"
@@ -111,5 +111,17 @@
   ],
   "tarball_url": "https://api.github.com/repos/python-poetry/poetry/tarball/2.5.2",
   "zipball_url": "https://api.github.com/repos/python-poetry/poetry/zipball/2.5.2",
-  "body": "### Changed\r\n\r\n- Allow `pkginfo>=2.0` ([#11239](https://github.com/python-poetry/poetry/pull/11239)).\r\n- Report a comprehensible error if a configured repository is missing a URL ([#11081](https://github.com/python-poetry/poetry/pull/11081), [#11114](https://github.com/python-poetry/poetry/pull/11114), [#11242](https://github.com/python-poetry/poetry/pull/11242)).\r\n- Report a comprehensible error for an invalid `--priority` in `poetry source add` instead of failing with a `KeyError` ([#11175](https://github.com/python-poetry/poetry/pull/11175)).\r\n\r\n### Fixed\r\n\r\n- Fix an issue where `poetry install` built an sdist before checking it against its lock file hash ([#11253](https://github.com/python-poetry/poetry/pull/11253)).\r\n- Fix an issue where `poetry install` rejected a distribution even though one of the hashes provided by the package index matched the hash locked for that file. ([#11131](https://github.com/python-poetry/poetry/pull/11131)).\r\n- Fix an issue where uninstalling a path dependency failed if its source did not exist anymore ([#11093](https://github.com/python-poetry/poetry/pull/11093)).\r\n- Fix an issue where `poetry version prerelease` failed for a dev release ([#11217](https://github.com/python-poetry/poetry/pull/11217)).\r\n\r\n### Docs\r\n\r\n- Document the options of `poetry debug resolve` ([#11211](https://github.com/python-poetry/poetry/pull/11211)).\r\n- Clarify `solver.min-release-age-exclude` and `solver.min-release-age-exclude-source` ([#11087](https://github.com/python-poetry/poetry/pull/11087)).\r\n- Distinguish package and upload repository URLs ([#11143](https://github.com/python-poetry/poetry/pull/11143)).\r\n- Explain the certificate configuration for system Git ([#11145](https://github.com/python-poetry/poetry/pull/11145)).\r\n- Add separate directory and archive path dependency examples ([#11079](https://github.com/python-poetry/poetry/pull/11079)).\r\n- Use the plugin repository for the `poetry-export` pre-commit hook ([#11213](https://github.com/python-poetry/poetry/pull/11213)).\r\n- Fix the incorrect `tool.poetry` section name in the FAQ ([#11150](https://github.com/python-poetry/poetry/pull/11150)).\r\n"
+  "body": "### Changed\r\n\r\n- Allow `pkginfo>=2.0` ([#11239](https://github.com/python-poetry/poetry/pull/11239)).\r\n- Report a comprehensible error if a configured repository is missing a URL ([#11081](https://github.com/python-poetry/poetry/pull/11081), [#11114](https://github.com/python-poetry/poetry/pull/11114), [#11242](https://github.com/python-poetry/poetry/pull/11242)).\r\n- Report a comprehensible error for an invalid `--priority` in `poetry source add` instead of failing with a `KeyError` ([#11175](https://github.com/python-poetry/poetry/pull/11175)).\r\n\r\n### Fixed\r\n\r\n- Fix an issue where `poetry install` built an sdist before checking it against its lock file hash ([#11253](https://github.com/python-poetry/poetry/pull/11253)).\r\n- Fix an issue where `poetry install` rejected a distribution even though one of the hashes provided by the package index matched the hash locked for that file. ([#11131](https://github.com/python-poetry/poetry/pull/11131)).\r\n- Fix an issue where uninstalling a path dependency failed if its source did not exist anymore ([#11093](https://github.com/python-poetry/poetry/pull/11093)).\r\n- Fix an issue where `poetry version prerelease` failed for a dev release ([#11217](https://github.com/python-poetry/poetry/pull/11217)).\r\n\r\n### Docs\r\n\r\n- Document the options of `poetry debug resolve` ([#11211](https://github.com/python-poetry/poetry/pull/11211)).\r\n- Clarify `solver.min-release-age-exclude` and `solver.min-release-age-exclude-source` ([#11087](https://github.com/python-poetry/poetry/pull/11087)).\r\n- Distinguish package and upload repository URLs ([#11143](https://github.com/python-poetry/poetry/pull/11143)).\r\n- Explain the certificate configuration for system Git ([#11145](https://github.com/python-poetry/poetry/pull/11145)).\r\n- Add separate directory and archive path dependency examples ([#11079](https://github.com/python-poetry/poetry/pull/11079)).\r\n- Use the plugin repository for the `poetry-export` pre-commit hook ([#11213](https://github.com/python-poetry/poetry/pull/11213)).\r\n- Fix the incorrect `tool.poetry` section name in the FAQ ([#11150](https://github.com/python-poetry/poetry/pull/11150)).\r\n",
+  "reactions": {
+    "url": "https://api.github.com/repos/python-poetry/poetry/releases/453582498/reactions",
+    "total_count": 1,
+    "+1": 1,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
