@@ -48,22 +48,22 @@ x install poetry
 
 ## 流行度
 
-- **Star**: 34,316 · **Fork**: 2,722 · **开放 issue**: 6,395 · **贡献者**: 683
+- **Star**: 34,314 · **Fork**: 2,726 · **开放 issue**: 6,400 · **贡献者**: 683
 
 ## 累计统计
 
-- **发布数**: 156 · **已合并 PR**: 2637 · **开放 PR**: 145 · **已关闭 issue**: 5902 · **开放 issue**: 493 · **提交数**: 3928
+- **发布数**: 156 · **已合并 PR**: 2637 · **开放 PR**: 151 · **已关闭 issue**: 5902 · **开放 issue**: 498 · **提交数**: 3928
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 1 | 21 | 49 | 4 | 19 | 32 |
-| last60d | 2026-09-26 | 1 | 40 | 80 | 8 | 20 | 43 |
-| 90d | 2026-08-27 | 5 | 79 | 99 | 14 | 24 | 84 |
-| last180d | 2026-05-29 | 5 | 110 | 121 | 24 | 31 | 120 |
-| 360d | 2025-11-30 | 12 | 257 | 128 | 71 | 41 | 264 |
-| last720d | 2024-12-05 | 22 | 474 | 138 | 371 | 105 | 515 |
+| 30d | 2026-10-27 | 1 | 20 | 54 | 3 | 24 | 32 |
+| last60d | 2026-09-27 | 1 | 38 | 83 | 8 | 25 | 43 |
+| 90d | 2026-08-28 | 5 | 78 | 105 | 14 | 29 | 84 |
+| last180d | 2026-05-30 | 5 | 108 | 126 | 22 | 36 | 120 |
+| 360d | 2025-12-01 | 12 | 256 | 134 | 71 | 46 | 264 |
+| last720d | 2024-12-06 | 22 | 470 | 144 | 370 | 110 | 515 |
 
 ## Release 资产
 
@@ -71,6 +71,24 @@ x install poetry
 |------|-----:|----------|
 | [poetry-2.5.2-py3-none-any.whl](https://github.com/python-poetry/poetry/releases/download/2.5.2/poetry-2.5.2-py3-none-any.whl) | 300.6 KiB | `other` |
 | [poetry-2.5.2.tar.gz](https://github.com/python-poetry/poetry/releases/download/2.5.2/poetry-2.5.2.tar.gz) | 3.2 MiB | `native/unknown` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/poetry) 上共有 **139** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**85** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2.3.4` | ⚠️ outdated |
+| Debian 14 | `2.3.4` | ⚠️ outdated |
+| Debian 13 | `2.1.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.3.2` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.8.2` | ⚠️ outdated |
+| Arch | `2.5.1` | ⚠️ outdated |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Fedora rawhide | `2.4.3` | ⚠️ outdated |
+| Nix unstable | `2.5.1` | ⚠️ outdated |
+| Alpine edge | `2.5.2` | ✅ latest |
+| openSUSE Tumbleweed | `2.4.1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -81,4 +99,4 @@ poetry 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261125.yml` · 2026-11-25T08:47:03Z._
+_数据快照: `data/card/261126.yml` · 2026-11-26T08:47:08Z._
