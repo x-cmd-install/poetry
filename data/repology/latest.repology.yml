@@ -1,27 +1,59 @@
-- repo: kali_rolling
-  subrepo: main
-  srcname: poetry
-  binnames:
-    - python3-poetry
+- repo: wakemeops
+  subrepo: dev
+  binname: poetry
   visiblename: poetry
   version: 2.3.4
-  origversion: 2.3.4-4
-  status: outdated
+  origversion: 2.3.4-1~ops2deb
+  status: legacy
   maintainers:
-    - team+python@tracker.debian.org
-    - eamanu@debian.org
-  categories:
-    - misc
-- repo: crux_38
-  subrepo: contrib
-  srcname: python3-poetry
-  visiblename: python3-poetry
+    - ops2deb@upciti.com
+- repo: parabola
+  subrepo: extra
+  srcname: python-poetry
+  binname: python-poetry
+  visiblename: python-poetry
+  version: 2.5.1
+  origversion: 2.5.1-1
+  status: outdated
+  summary: Python dependency management and packaging made easy
+  licenses:
+    - MIT
+- repo: wakemeops
+  subrepo: dev
+  binname: poetry
+  visiblename: poetry
+  version: 2.4.3
+  origversion: 2.4.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: poetry
+  visiblename: poetry
+  version: 2.4.2
+  origversion: 2.4.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: poetry
+  visiblename: poetry
+  version: 2.4.1
+  origversion: 2.4.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: scoop
+  subrepo: main
+  binname: poetry
+  visiblename: poetry
   version: 2.5.2
   origversion: null
   status: newest
-  summary: python3 packaging and dependency management made easy
-  maintainers:
-    - tbier@posteo.de
+  licenses:
+    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: poetry
@@ -167,18 +199,21 @@
   binname: python-poetry
   visiblename: python-poetry
   version: 2.5.1
-  origversion: 2.5.1-1
+  origversion: 2.5.1-2
   status: outdated
   summary: Python dependency management and packaging made easy
   licenses:
     - MIT
-- repo: homebrew
-  srcname: poetry
-  visiblename: poetry
-  version: HEAD
+- repo: crux_38
+  subrepo: contrib
+  srcname: python3-poetry
+  visiblename: python3-poetry
+  version: 2.5.2
   origversion: null
-  status: rolling
-  summary: Python package management tool
+  status: newest
+  summary: python3 packaging and dependency management made easy
+  maintainers:
+    - tbier@posteo.de
 - repo: debian_12
   subrepo: bookworm/main
   srcname: poetry
@@ -235,6 +270,15 @@
     - eamanu@debian.org
   categories:
     - misc
+- repo: wakemeops
+  subrepo: dev
+  binname: poetry
+  visiblename: poetry
+  version: 2.4.0
+  origversion: 2.4.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: fedora_45
   subrepo: release
   srcname: poetry
@@ -265,18 +309,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: pkgsrc_current
-  srcname: devel/py-poetry
-  binname: py314-poetry
-  visiblename: devel/py-poetry
-  version: 2.4.3
-  origversion: null
-  status: outdated
-  summary: Python dependency management and packaging made easy
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
 - repo: freebsd
   srcname: devel/py-poetry
   binname: py312-poetry
@@ -332,6 +364,27 @@
   origversion: null
   status: newest
   summary: Python package management tool
+- repo: homebrew
+  srcname: poetry
+  visiblename: poetry
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Python package management tool
+- repo: kali_rolling
+  subrepo: main
+  srcname: poetry
+  binnames:
+    - python3-poetry
+  visiblename: poetry
+  version: 2.3.4
+  origversion: 2.3.4-4
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - eamanu@debian.org
+  categories:
+    - misc
 - repo: liguros_develop
   srcname: dev-python/poetry
   visiblename: dev-python/poetry
@@ -534,17 +587,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: parabola
-  subrepo: extra
-  srcname: python-poetry
-  binname: python-poetry
-  visiblename: python-poetry
-  version: 2.5.1
-  origversion: 2.5.1-1
-  status: outdated
-  summary: Python dependency management and packaging made easy
-  licenses:
-    - MIT
 - repo: pkgsrc_2026_2
   srcname: devel/py-poetry
   binname: py313-poetry
@@ -564,6 +606,18 @@
   version: 2.4.3
   origversion: null
   status: outdated
+  summary: Python dependency management and packaging made easy
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
+- repo: pkgsrc_current
+  srcname: devel/py-poetry
+  binname: py314-poetry
+  visiblename: devel/py-poetry
+  version: 2.5.2
+  origversion: null
+  status: newest
   summary: Python dependency management and packaging made easy
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -623,15 +677,6 @@
     - MIT and (ASL 2.0 or BSD)
   categories:
     - Development/Python
-- repo: scoop
-  subrepo: main
-  binname: poetry
-  visiblename: poetry
-  version: 2.5.2
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: solus
   srcname: python-poetry
   binname: python-poetry
@@ -737,51 +782,6 @@
   subrepo: dev
   binname: poetry
   visiblename: poetry
-  version: 2.4.3
-  origversion: 2.4.3-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 2.4.2
-  origversion: 2.4.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 2.4.1
-  origversion: 2.4.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 2.4.0
-  origversion: 2.4.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 2.3.4
-  origversion: 2.3.4-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
   version: 1.1.15
   origversion: 1.1.15-2~ops2deb
   status: legacy
@@ -809,48 +809,8 @@
   subrepo: dev
   binname: poetry
   visiblename: poetry
-  version: 2.3.0
-  origversion: 2.3.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
   version: 2.2.1
   origversion: 2.2.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 1.8.2
-  origversion: 1.8.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 1.8.1
-  origversion: 1.8.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 1.8.0
-  origversion: 1.8.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -865,34 +825,6 @@
   maintainers:
     - ops2deb@upciti.com
   vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: poetry
-  binname: poetry
-  visiblename: poetry
-  version: 1.4.2
-  origversion: 1.4.2-r1
-  status: outdated
-  summary: Python3 dependency management and packaging system
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: poetry
-  binname: poetry-pyc
-  visiblename: poetry-pyc
-  version: 1.4.2
-  origversion: 1.4.2-r1
-  status: outdated
-  summary: Precompiled Python bytecode for poetry
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - MIT
-  vulnerable: true
 - repo: wakemeops
   subrepo: dev
   binname: poetry
@@ -903,117 +835,140 @@
   maintainers:
     - ops2deb@upciti.com
   vulnerable: true
-- repo: alpine_3_19
-  subrepo: community
-  srcname: poetry
+- repo: wakemeops
+  subrepo: dev
   binname: poetry
   visiblename: poetry
-  version: 1.7.1
-  origversion: 1.7.1-r0
-  status: outdated
-  summary: Python3 dependency management and packaging system
+  version: 2.3.0
+  origversion: 2.3.0-1~ops2deb
+  status: legacy
   maintainers:
-    - michal@polanski.me
-  licenses:
-    - MIT
+    - ops2deb@upciti.com
   vulnerable: true
-- repo: alpine_3_19
-  subrepo: community
-  srcname: poetry
-  binname: poetry-pyc
-  visiblename: poetry-pyc
-  version: 1.7.1
-  origversion: 1.7.1-r0
-  status: outdated
-  summary: Precompiled Python bytecode for poetry
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: poetry
+- repo: wakemeops
+  subrepo: dev
   binname: poetry
   visiblename: poetry
-  version: 1.8.3
-  origversion: 1.8.3-r0
-  status: outdated
-  summary: Python3 dependency management and packaging system
+  version: 2.1.4
+  origversion: 2.1.4-1~ops2deb
+  status: legacy
   maintainers:
-    - michal@polanski.me
-  licenses:
-    - MIT
+    - ops2deb@upciti.com
   vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: poetry
-  binname: poetry-pyc
-  visiblename: poetry-pyc
-  version: 1.8.3
-  origversion: 1.8.3-r0
-  status: outdated
-  summary: Precompiled Python bytecode for poetry
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: poetry
+- repo: wakemeops
+  subrepo: dev
   binname: poetry
   visiblename: poetry
-  version: 1.8.4
-  origversion: 1.8.4-r0
-  status: outdated
-  summary: Python3 dependency management and packaging system
+  version: 2.2.0
+  origversion: 2.2.0-1~ops2deb
+  status: legacy
   maintainers:
-    - michal@polanski.me
-  licenses:
-    - MIT
+    - ops2deb@upciti.com
   vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: poetry
-  binname: poetry-pyc
-  visiblename: poetry-pyc
-  version: 1.8.4
-  origversion: 1.8.4-r0
-  status: outdated
-  summary: Precompiled Python bytecode for poetry
+- repo: wakemeops
+  subrepo: dev
+  binname: poetry
+  visiblename: poetry
+  version: 2.1.3
+  origversion: 2.1.3-1~ops2deb
+  status: legacy
   maintainers:
-    - michal@polanski.me
-  licenses:
-    - MIT
+    - ops2deb@upciti.com
   vulnerable: true
-- repo: alpine_3_22
-  subrepo: community
-  srcname: poetry
+- repo: wakemeops
+  subrepo: dev
+  binname: poetry
+  visiblename: poetry
+  version: 2.1.2
+  origversion: 2.1.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: dev
+  binname: poetry
+  visiblename: poetry
+  version: 2.1.1
+  origversion: 2.1.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: dev
   binname: poetry
   visiblename: poetry
   version: 2.0.1
-  origversion: 2.0.1-r0
-  status: outdated
-  summary: Python3 dependency management and packaging system
+  origversion: 2.0.1-1~ops2deb
+  status: legacy
   maintainers:
-    - michal@polanski.me
-  licenses:
-    - MIT
+    - ops2deb@upciti.com
   vulnerable: true
-- repo: alpine_3_22
-  subrepo: community
-  srcname: poetry
-  binname: poetry-pyc
-  visiblename: poetry-pyc
-  version: 2.0.1
-  origversion: 2.0.1-r0
-  status: outdated
-  summary: Precompiled Python bytecode for poetry
+- repo: wakemeops
+  subrepo: dev
+  binname: poetry
+  visiblename: poetry
+  version: 2.0.0
+  origversion: 2.0.0-1~ops2deb
+  status: legacy
   maintainers:
-    - michal@polanski.me
-  licenses:
-    - MIT
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: dev
+  binname: poetry
+  visiblename: poetry
+  version: 1.8.5
+  origversion: 1.8.5-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: dev
+  binname: poetry
+  visiblename: poetry
+  version: 1.8.4
+  origversion: 1.8.4-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: dev
+  binname: poetry
+  visiblename: poetry
+  version: 1.8.3
+  origversion: 1.8.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: dev
+  binname: poetry
+  visiblename: poetry
+  version: 1.8.2
+  origversion: 1.8.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: poetry
+  binnames:
+    - python3-poetry
+  visiblename: poetry
+  version: 2.1.2
+  origversion: 2.1.2+dfsg-1+deb13u1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - eamanu@debian.org
+  categories:
+    - misc
   vulnerable: true
 - repo: alpine_3_23
   subrepo: community
@@ -1024,6 +979,159 @@
   origversion: 2.2.1-r0
   status: outdated
   summary: Python3 dependency management and packaging system
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: apertis_v2026
+  subrepo: v2026/development
+  srcname: poetry
+  binnames:
+    - python3-poetry
+  visiblename: poetry
+  version: 2.1.2
+  origversion: 2.1.2+dfsg-1+deb13u1+apertis1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - eamanu@debian.org
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: poetry
+  binname: poetry
+  visiblename: poetry
+  version: 1.4.2
+  origversion: 1.4.2-r1
+  status: outdated
+  summary: Python3 dependency management and packaging system
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: poetry
+  binname: poetry-pyc
+  visiblename: poetry-pyc
+  version: 1.4.2
+  origversion: 1.4.2-r1
+  status: outdated
+  summary: Precompiled Python bytecode for poetry
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: community
+  srcname: poetry
+  binname: poetry
+  visiblename: poetry
+  version: 1.7.1
+  origversion: 1.7.1-r0
+  status: outdated
+  summary: Python3 dependency management and packaging system
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: community
+  srcname: poetry
+  binname: poetry-pyc
+  visiblename: poetry-pyc
+  version: 1.7.1
+  origversion: 1.7.1-r0
+  status: outdated
+  summary: Precompiled Python bytecode for poetry
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: poetry
+  binname: poetry
+  visiblename: poetry
+  version: 1.8.3
+  origversion: 1.8.3-r0
+  status: outdated
+  summary: Python3 dependency management and packaging system
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: poetry
+  binname: poetry-pyc
+  visiblename: poetry-pyc
+  version: 1.8.3
+  origversion: 1.8.3-r0
+  status: outdated
+  summary: Precompiled Python bytecode for poetry
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: poetry
+  binname: poetry
+  visiblename: poetry
+  version: 1.8.4
+  origversion: 1.8.4-r0
+  status: outdated
+  summary: Python3 dependency management and packaging system
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: poetry
+  binname: poetry-pyc
+  visiblename: poetry-pyc
+  version: 1.8.4
+  origversion: 1.8.4-r0
+  status: outdated
+  summary: Precompiled Python bytecode for poetry
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: community
+  srcname: poetry
+  binname: poetry
+  visiblename: poetry
+  version: 2.0.1
+  origversion: 2.0.1-r0
+  status: outdated
+  summary: Python3 dependency management and packaging system
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: community
+  srcname: poetry
+  binname: poetry-pyc
+  visiblename: poetry-pyc
+  version: 2.0.1
+  origversion: 2.0.1-r0
+  status: outdated
+  summary: Precompiled Python bytecode for poetry
   maintainers:
     - michal@polanski.me
   licenses:
@@ -1058,19 +1166,6 @@
     - MIT
   categories:
     - Development/Python3
-  vulnerable: true
-- repo: apertis_v2026
-  subrepo: v2026/development
-  srcname: poetry
-  binnames:
-    - python3-poetry
-  visiblename: poetry
-  version: 2.1.2
-  origversion: 2.1.2+dfsg-1+deb13u1+apertis1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - eamanu@debian.org
   vulnerable: true
 - repo: apertis_v2027
   subrepo: v2027dev1/development
@@ -1365,21 +1460,6 @@
   licenses:
     - MIT
   vulnerable: true
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: poetry
-  binnames:
-    - python3-poetry
-  visiblename: poetry
-  version: 2.1.2
-  origversion: 2.1.2+dfsg-1+deb13u1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - eamanu@debian.org
-  categories:
-    - python
-  vulnerable: true
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: python-poetry
@@ -1394,6 +1474,23 @@
     - uro@urogaming.co.uk
   licenses:
     - MIT
+  categories:
+    - Development/Python
+  vulnerable: true
+- repo: rosa_13
+  subrepo: main/release
+  srcname: poetry
+  binnames:
+    - python3-poetry
+  visiblename: poetry
+  version: 1.8.3
+  origversion: 1.8.3-1
+  status: outdated
+  summary: Python dependency management and packaging made easy
+  maintainers:
+    - alexander@mezon.ru
+  licenses:
+    - MIT and (ASL 2.0 or BSD)
   categories:
     - Development/Python
   vulnerable: true
@@ -1425,8 +1522,8 @@
   categories:
     - misc
   vulnerable: true
-- repo: parrot
-  subrepo: parrot-updates/main
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: poetry
   binnames:
     - python3-poetry
@@ -1438,7 +1535,7 @@
     - team+python@tracker.debian.org
     - eamanu@debian.org
   categories:
-    - misc
+    - python
   vulnerable: true
 - repo: raspbian_stable
   subrepo: main
@@ -1455,23 +1552,6 @@
   categories:
     - misc
   vulnerable: true
-- repo: rosa_13
-  subrepo: main/release
-  srcname: poetry
-  binnames:
-    - python3-poetry
-  visiblename: poetry
-  version: 1.8.3
-  origversion: 1.8.3-1
-  status: outdated
-  summary: Python dependency management and packaging made easy
-  maintainers:
-    - alexander@mezon.ru
-  licenses:
-    - MIT and (ASL 2.0 or BSD)
-  categories:
-    - Development/Python
-  vulnerable: true
 - repo: spack
   srcname: py-poetry
   visiblename: py-poetry
@@ -1482,16 +1562,6 @@
     - fallback-mnt-spack@repology
   licenses:
     - MIT
-  vulnerable: true
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 1.7.1
-  origversion: 1.7.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
   vulnerable: true
 - repo: ubuntu_24_04
   subrepo: noble/universe
@@ -1557,8 +1627,8 @@
   subrepo: dev
   binname: poetry
   visiblename: poetry
-  version: 2.2.0
-  origversion: 2.2.0-1~ops2deb
+  version: 1.8.1
+  origversion: 1.8.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -1567,8 +1637,8 @@
   subrepo: dev
   binname: poetry
   visiblename: poetry
-  version: 2.1.4
-  origversion: 2.1.4-1~ops2deb
+  version: 1.8.0
+  origversion: 1.8.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -1577,78 +1647,8 @@
   subrepo: dev
   binname: poetry
   visiblename: poetry
-  version: 2.1.3
-  origversion: 2.1.3-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 2.1.2
-  origversion: 2.1.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 2.1.1
-  origversion: 2.1.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 2.0.1
-  origversion: 2.0.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 2.0.0
-  origversion: 2.0.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 1.8.5
-  origversion: 1.8.5-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 1.8.4
-  origversion: 1.8.4-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: dev
-  binname: poetry
-  visiblename: poetry
-  version: 1.8.3
-  origversion: 1.8.3-1~ops2deb
+  version: 1.7.1
+  origversion: 1.7.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
